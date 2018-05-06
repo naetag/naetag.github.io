@@ -1,20 +1,314 @@
-<html>
-    <head>
-        <title> Naetag </title>
-        <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <head>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" type="image/jpeg" href="naetag-logo.jpeg"/>
-    </head>
-    <body>
-        <div class="container">
-            <img src="error.jpg" class="img-responsive" alt="Responsive image">
-            <h3> You can reach out us at <a href="mailto:admin@naetag.com">admin@naetag.com</a> . We will contact you ASAP.</h3>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>naetag</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/logo/main.png"/>
+
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.min.css" rel="stylesheet">
+    <style>
+      #cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #fff; z-index:9999;
+    background: url('img/logo/loader.gif') 50% 50% no-repeat rgb(249,249,249);}
+      .vl {
+          border-left: 6px solid green;
+          height: 500px;
+      }
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+          width: 70%;
+          margin: auto;
+      }
+      </style>
+  </head>
+
+  <body id="page-top">
+    <div id="cover"></div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="/"><img src="img/logo/main.png" height="15%" width="15%"/></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#page-top">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#whyus">Why us ? </a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#sellers">Seller</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">Download </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#career">Career </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-    </body>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+              <h3 class="mb-5">Naetag is a dedicated platform to help sellers by featuring business to business cross promotion where the sellers themself are the partners rather the being competitors.
+              We enabled sellers to promote each other strategically and the customer gets the most out of it.  
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-5 my-auto">
+            <div class="device-container">
+              <div class="device-mockup nexus7 portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <img src="img/app/3.jpg" class="img-fluid" alt="">
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="download bg-primary text-center" id="whyus">
+      <div class="container">
+        <h1 class="display-3">Why us ? </h1>
+        <p>
+          Do you have a service or a product ? If so, How do you promote? 
+          Print media, digital media or hired an ad agency who does everything for you. 
+          But, How do you track the customer you get v/s the money you have spent on promotion ? 
+          Hence, our platform is there with a different and intresting way of promotion. 
+
+          Our main objective is to empower sellers which ultimately lead to customer benifit. When the customer get cashback or points,
+          They buy only from the sellers they wish . But, On Naetag, we give them coupons/deals from other sellers
+          that makes every sellers on our platform to get equal exposure. Our high level of data analytics helps us to unserstand customer behaviour and accourdingly we provide coupons/deals
+          from different sellers partner which has high potential to convert. 
+        </p>
+      </div>
+    </section>
+
+    <section class="download bg-info" id="sellers">
+      <div class="container">
+        <h1 class="display-3">Benifit for sellers </h1>
+        <ul class="list">
+          <li>Get a great exposure when other sellers promote your business to their customer and vice a versa</li>
+          <li>Get a personalized dashboard where you can control your activities and see the statistics on a click</li>
+          <li>Customize your deals/coupons on demand. Its so easy and simple</li>
+          <li>Get customer statistics like how many order you get through our platform and what is the average token size etc</li>
+          <li>Get a solid online presence, your promotion is our responsibility</li>
+          <li>Flawless payment through Naetag Wallet</li>
+          <li>Our high level analytics will guide you on occusional offer to get more business. We can be your one stop coupons management partneer.</li>
+          <li>You get a dedicated relationship manager</li>
+        </ul>
+        <h1 class="display-5">Transparent payout details</h1>
+        <ul class="list">
+          <li>Payout on weekly basis</li>
+          <li>Change of bank account credentials needs to be communicated us prior to a week. </li>
+          <li>A transaction report will be sent your email with every payout.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!--<section class="features" id="features">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Unlimited Features, Unlimited Fun</h2>
+          <p class="text-muted">Check out what you can do with this app theme!</p>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="button">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 my-auto">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-screen-smartphone text-primary"></i>
+                    <h3>Device Mockups</h3>
+                    <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-camera text-primary"></i>
+                    <h3>Flexible Use</h3>
+                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-present text-primary"></i>
+                    <h3>Free to Use</h3>
+                    <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-lock-open text-primary"></i>
+                    <h3>Open Source</h3>
+                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+  <section class="download bg-primary text-center" id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">Discover what all the buzz is about!</h2>
+            <p>Our app is available on any mobile device! Download now to get started!</p>
+            <div class="badges">
+              <a class="badge-link" href="https://play.google.com/store/apps/details?id=org.naetag"><img src="img/google-play-badge.svg" alt=""></a>
+              <!--<a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="download bg-secoundary text-center" id="career">
+      <div class="container">
+        <h4 class="display-4"> We are hiring both technical geek and managerial deserving candidate. Feel free to drop your profile @ <a href="mailto:career@naetag.com">career@naetag.com</a></h4>
+      </div>
+    </section>
+
+    <!--<section class="cta">
+      <div class="cta-content">
+        <div class="container">
+          <h2>Stop waiting.<br>Start building.</h2>
+          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>-->
+
+    <section class="contact bg-primary" id="contact">
+      <div class="container">
+        <div class="">
+          <address>
+              #10, 5th Cross, Sivaganga Layout <br/>
+              Mahadevpura<br/>
+              Bangalore-560048<br/>
+              Phone: +91-9035-030-201<br/>
+              e-mail: admin@naetag.com<br/>
+          </address>
+        </div>
+        <div class="">
+          <ul class="list-inline list-social">
+          <li class="list-inline-item social-twitter">
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-facebook">
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-google-plus">
+            <a href="#">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; naetag.com 2018. All Rights Reserved.</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">Terms</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.min.js"></script>
+
+    <script>
+    jQuery(function($) {
+      $(document).ready(function() {
+        $(window).on('load', function() {
+           $("#cover").fadeOut(200);
+        });
+      });
+    });
+    </script>
+
+  </body>
+
 </html>
